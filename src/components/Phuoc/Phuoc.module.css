@@ -1,0 +1,17 @@
+.phuoc {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.phuoc img {
+  margin-bottom: -100px;
+  margin-left: -100px;
+}
+
+@media screen and (max-width: 600px) {
+  .phuoc {
+    display: none;
+  }
+}

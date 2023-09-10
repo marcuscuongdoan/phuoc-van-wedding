@@ -1,6 +1,28 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  backdrop-filter: blur(10px);
+  position: relative;
 }
+
+/* body {
+  background-image: url(./assets/background.jpg);
+  height: 100vh;
+  width: 100vw;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  opacity: 70%;
+  z-index: -1;
+} */
 
 .App-logo {
   height: 40vmin;
