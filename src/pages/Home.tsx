@@ -69,6 +69,35 @@ const Home = () => {
           Sự hiện diện của quý khách là niềm vinh hạnh cho gia đình chúng tôi
         </p>
       </div>
+      <div
+        style={{
+          marginTop: "200px",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "Amatic SC",
+            fontSize: 60,
+            fontWeight: 700,
+            color: "lightpink",
+          }}
+        >
+          Lễ Vu Quy
+        </p>
+        <p>Hôn lễ được cử hành tại</p>
+        <p
+          style={{
+            fontFamily: "Amatic SC",
+            fontSize: 40,
+            fontWeight: 700,
+            color: "lightpink",
+          }}
+        >
+          Thánh đường Giáo xứ Bắc Hà
+        </p>
+        <p>Vào lúc: 5 giờ - ngày Chúa nhật 24 - 9 - 2023</p>
+        <p>(Nhằm ngày 10 - 8 năm Quý Mão)</p>
+      </div>
       {/* <ContentBox
         name="Lê Hoàng Văn"
         description="Trưởng Nam"
